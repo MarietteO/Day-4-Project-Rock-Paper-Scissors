@@ -28,6 +28,7 @@ scissors = '''
 '''
 
 def choose_art(choice):
+    """Displays the corresponding art for the given choice."""
     if choice == 0:
         print(rock)
     elif choice == 1:
